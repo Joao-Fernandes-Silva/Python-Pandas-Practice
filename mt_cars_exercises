@@ -1,0 +1,14 @@
+Import pandas and solve these questions with the use of Pandas. 
+
+	1.	Load the mtcars dataset into a Pandas DataFrame. Show the first 5 rows. How many rows and columns are there?
+	2.	List all the column names. What are the data types of each column?
+	3.	Select the mpg column. What is the average mpg?
+	4.	Show only the mpg, hp, and wt columns for the first 10 cars.
+	5.	Use describe() to get summary statistics. Which car has the highest horsepower (hp)?
+	6.	Which cars have mpg > 25? Which cars have both mpg > 20 and hp < 100?
+	7.	The dataset has car model names as the index. Select the row for "Toyota Corolla" and show all its values.
+	8.	Sort the cars by mpg in descending order. Which 3 cars have the best fuel efficiency?
+	9.	Rank all cars by weight (wt) from lightest to heaviest.
+	10.	What is the average mpg for cars grouped by number of cylinders (cyl)? What is the average horsepower for each group?
+	11.	For each cylinder group, calculate both the mean and max horsepower.
+	12.	Create a new column power_to_weight = hp / wt. Which car has the highest power-to-weight ratio?
